@@ -1,0 +1,3 @@
+{
+  "extends": "@lumio/config/tsconfig.base.json"
+}
