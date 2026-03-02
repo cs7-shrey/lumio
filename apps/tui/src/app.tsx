@@ -7,14 +7,9 @@ import { Message, getModel, stream, Context, AssistantMessageEventStream } from 
 // Fully typed with auto-complete support for both providers and models
 const model = getModel('openrouter', 'anthropic/claude-3.7-sonnet:thinking');
 
-type Props = {
-	name: string | undefined;
-};
-
 export default function App({}) {
 	const [query, setQuery] = useState('');
 	const { messages, addMessage, setLastMessage } = useCurrentChatStore();
-	// const [interim, setInterim] = useState<AssistantMessage>();
 
 	const [generating, setGenerating] = useState(false);
 
