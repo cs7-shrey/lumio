@@ -18,6 +18,8 @@
 	],
 	"dependencies": {
 		"@lumio/config": "*",
+		"@lumio/env": "*",
+		"@mariozechner/pi-ai": "^0.55.3",
 		"@openrouter/ai-sdk-provider": "^2.2.3",
 		"ai": "^6.0.97",
 		"ink": "^4.1.0",

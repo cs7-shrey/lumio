@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import '@lumio/env';
 import React from 'react';
 import {render} from 'ink';
 import meow from 'meow';
@@ -26,4 +27,4 @@ const cli = meow(
 	},
 );
 
-render(<App name={cli.flags.name} />);
+render(<App />);
