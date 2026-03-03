@@ -21,11 +21,13 @@
 		"@lumio/env": "*",
 		"@mariozechner/pi-ai": "^0.55.3",
 		"@openrouter/ai-sdk-provider": "^2.2.3",
+		"@sinclair/typebox": "^0.34.48",
 		"ai": "^6.0.97",
 		"ink": "^4.1.0",
 		"ink-text-input": "^6.0.0",
 		"meow": "^11.0.0",
 		"react": "^18.2.0",
+		"typebox": "^1.1.5",
 		"zustand": "^5.0.11"
 	},
 	"devDependencies": {

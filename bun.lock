@@ -23,11 +23,13 @@
         "@lumio/env": "*",
         "@mariozechner/pi-ai": "^0.55.3",
         "@openrouter/ai-sdk-provider": "^2.2.3",
+        "@sinclair/typebox": "^0.34.48",
         "ai": "^6.0.97",
         "ink": "^4.1.0",
         "ink-text-input": "^6.0.0",
         "meow": "^11.0.0",
         "react": "^18.2.0",
+        "typebox": "^1.1.5",
         "zustand": "^5.0.11",
       },
       "devDependencies": {
@@ -1405,6 +1407,8 @@
     "type-check": ["type-check@0.4.0", "", { "dependencies": { "prelude-ls": "^1.2.1" } }, "sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew=="],
 
     "type-fest": ["type-fest@0.12.0", "", {}, "sha512-53RyidyjvkGpnWPMF9bQgFtWp+Sl8O2Rp13VavmJgfAP9WWG6q6TkrKU8iyJdnwnfgHI6k2hTlgqH4aSdjoTbg=="],
+
+    "typebox": ["typebox@1.1.5", "", {}, "sha512-TBdiM4mSppvWdmRDK5PoocxrMOqGIU9TxmS9zdHH+k8S/+2SIaNlPfMlx3f6hISxma14t2yX7SRySg7+TYYT9w=="],
 
     "typed-array-buffer": ["typed-array-buffer@1.0.3", "", { "dependencies": { "call-bound": "^1.0.3", "es-errors": "^1.3.0", "is-typed-array": "^1.1.14" } }, "sha512-nAYYwfY3qnzX30IkA6AQZjVbtK6duGontcQm1WSG1MD94YLqK0515GNApXkoxKOWMusVssAHWLh9SeaoefYFGw=="],
 
